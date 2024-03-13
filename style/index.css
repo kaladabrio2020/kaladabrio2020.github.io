@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.divBarMain{
+    background-color: rgb(41, 120, 189);
+    width: 325px;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1px;
+    align-items: center;
+}
+
+
+.h1Name{
+    font-size: 15pt;
+    font-family:'OpenSans';
+}
+
+.DivPortifolio{
+    background-color: black;
+    overflow: hidden;
+    width: 200vh;
+    height: 100vh;
+}
