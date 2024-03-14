@@ -1,30 +1,92 @@
 body{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    height: 100%;
-    width: 100%;
+    background-image: url(imgBackground/fundo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
-.divBarMain{
-    background-color: rgb(41, 120, 189);
-    width: 325px;
-    height: 100vh;
-    margin: 0;
+
+.divMain{
     display: flex;
-    flex-direction: column;
-    border-radius: 1px;
+    margin-right: 100px;
+}
+
+
+.divPerfil{
+    
+    background-color: aliceblue;
+    width: 21.1%;
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 10px;
+    align-items    : center;
+
+
+}
+.divImagem{
     align-items: center;
+    justify-content: center;
+    display: flex;
 }
-
-
-.h1Name{
+.divImagem img{
+    border-radius: 300px;
+    width: 120px;
+}
+.divUsuario{
+    font-family: 'Open Sans';
+    font-weight: bold;
     font-size: 15pt;
-    font-family:'OpenSans';
+    text-align: center;
+    margin-top: 10px;
 }
 
-.DivPortifolio{
-    background-color: black;
-    overflow: hidden;
-    width: 200vh;
-    height: 100vh;
+.divCurriculoVitae{
+    display:flex;
+    margin-top: 400px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.divBottomVitae{
+    background-color: rgb(39, 89, 123);
+    border-radius: 10px;
+    width: 102px;
+    padding: 6px;
+    text-align: center;
+}
+
+.divBottomVitae:hover{
+    background-color: rgb(29, 58, 77);
+    border-radius: 10px;
+    width: 102px;
+    padding: 6px;
+    text-align: center;
+}
+
+
+.divBottomVitae a{
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Open Sans';
+    font-size: 11pt;
+}
+.divBottomVitae a:hover{
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Open Sans';
+    font-size: 11pt;
+}
+
+.divIcons img{
+    width: 35px;
+    height: 35px;
+}
+.divIcons div{
+    display: flex;
+}
+.divPortifilio{
+    background-color: aliceblue;
+}
+.divPortifilio {
+    background-color: aliceblue;
 }
