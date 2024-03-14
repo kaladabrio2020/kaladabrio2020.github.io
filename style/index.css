@@ -3,11 +3,12 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    font-family: 'Open Sans';
 }
 
 .divMain{
-    display: flex;
     margin-right: 100px;
+    display: flex;
 }
 
 
@@ -29,7 +30,7 @@ body{
 }
 .divImagem img{
     border-radius: 300px;
-    width: 120px;
+    width: 110px;
 }
 .divUsuario{
     font-family: 'Open Sans';
@@ -85,8 +86,11 @@ body{
     display: flex;
 }
 .divPortifilio{
-    background-color: aliceblue;
-}
-.divPortifilio {
-    background-color: aliceblue;
+    background-color: rgba(255, 255, 255, 0.421);    
+    padding: 25px;
+    height: 300px;
+    width: 65%;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 10px;
 }
