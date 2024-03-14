@@ -1,5 +1,5 @@
 body{
-    background-image: url(imgBackground/fundo.jpg);
+    background-image: url(https://images5.alphacoders.com/324/324695.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -13,7 +13,7 @@ body{
 
 .divPerfil{
     
-    background-color: aliceblue;
+    background-color: rgba(255, 255, 255, 0.421);
     width: 21.1%;
     padding: 25px;
     margin-top: 20px;
