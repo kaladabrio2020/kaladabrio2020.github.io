@@ -5,12 +5,19 @@ body{
     background-size: cover;
     font-family: 'Open Sans';
 }
-
+hr{
+    border: none;
+    background-color: rgba(0, 0, 0, 0.323);
+    height: 0.1px;
+}
 .divMain{
     margin-right: 100px;
     display: flex;
 }
-
+.email{
+    text-align: center;
+    font-family: 'Open Sans';
+}
 
 .divPerfil{
     
@@ -41,12 +48,47 @@ body{
     margin-top: 15px;
 }
 
+.divLinksImportantes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .divCurriculoVitae{
-    display:flex;
-    margin-top: 350px;
+    margin-top: 250px;
     align-items: center;
     justify-content: center;
 
+}
+.divProjetos{
+    background-color: rgb(39, 89, 123);
+    border-radius: 10px;
+    width: 102px;
+    padding: 6px;
+    margin-bottom: 15px;
+
+    text-align: center;
+}
+
+.divProjetos:hover{
+    background-color: rgb(29, 58, 77);
+    border-radius: 10px;
+    width: 102px;
+    padding: 6px;
+    text-align: center;
+}
+
+.divProjetos a{
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Open Sans';
+    font-size: 11pt;
+}
+.divProjetos a:hover{
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Open Sans';
+    font-size: 11pt;
 }
 
 .divBottomVitae{
@@ -122,4 +164,10 @@ body{
     width: 45px;
     border-radius: 10px;
     background-color: white;
+}
+
+
+.divProjetosImportantes{
+    margin-top: 35px;
+
 }
