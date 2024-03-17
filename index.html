@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="style/index.css"/>
 
     <title>Kaladabrio</title>
-    <script src="links.js" defer></script>
 </head>
 <body>
     <div class="divMain">
@@ -87,12 +86,24 @@
                         <p>Classificação de câncer de mama usando Redes Neurais Convulacionais</p>
                     </div>
                 </div>
-
-
-
             </div>
         </div>
 
     </div>
+    <script>
+        document.getElementById("MLP").addEventListener("click", function() {
+            var link = document.createElement("a");
+            link.href = "https://github.com/kaladabrio2020/MachineLearning";
+            link.target = "_blank";
+            link.click();
+        });
+
+        document.getElementById("BOOT").addEventListener("click", function() {
+            var link = document.createElement("a");
+            link.href = "https://github.com/Bootcamp-Atlantico-Machine-Learning";
+            link.target = "_blank";
+            link.click();
+        });
+    </script>
 </body>
 </html>
